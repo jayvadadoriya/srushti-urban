@@ -131,7 +131,6 @@ body {
   width: fit-content;
   padding-bottom: 5px;
   margin: 0 auto;
-  text-transform: uppercase;
 }
 .textunderlinestart{
   border-bottom: 1.6px solid var(--primary-color);
@@ -176,7 +175,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   color: rgb(65, 65, 65);
-  letter-spacing: 1px;
+  letter-spacing: 0.5px; 
 }
 .txt{
   color: var(--primary-color);
@@ -402,6 +401,7 @@ body {
 }
 .sbmtbtn {
   background-color: var(--primary-color);
+  border-color: var(--primary-color) !important;
 }
 
 .sbmtbtn:hover {
